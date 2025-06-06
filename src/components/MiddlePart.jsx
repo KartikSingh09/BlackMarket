@@ -1,4 +1,3 @@
-import { Cursor } from 'mongoose'
 import React from 'react'
 import { TbBackground } from 'react-icons/tb'
 
@@ -33,8 +32,7 @@ const MiddlePart = ({imagePath}) => {
     background: "linear-gradient(100deg,white 0%,orange 100%)",
     color:"black",
     fontFamily:"Brush Script MT",
-    fontSize:"15px",
-    cursor:"pointer"
+    fontSize:"15px"
     }
   return (
     <div style={middleStyle}>
